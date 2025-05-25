@@ -1,1 +1,1 @@
-# Auto-generated script
+# Auto-generated Blender Python script
