@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DesignXHub</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <main class="main-container">
+        <header class="header">
+            <h1 class="logo">Design<span class="x-highlight">X</span>Hub</h1>
+            <p class="subheading">Create Smart 3D Worlds — Powered by Hybrid & Voting AI</p>
+        </header>
+
+        <section class="input-area">
+            <textarea id="command" placeholder="Enter your prompt... e.g., 'Create a red cube with lighting'"></textarea>
+            <button onclick="sendCommand()">Generate Code</button>
+        </section>
+
+        <section class="code-output">
+            <h2>Generated Code:</h2>
+            <pre id="generated-code" class="code-block"></pre>
+            <button onclick="copyCode()">Copy Code</button>
+        </section>
+
+        <section class="render-output">
+            <h2>Rendered Output:</h2>
+            <img id="blender-render" src="/render" alt="Rendered Result" />
+            <button onclick="refreshRender()">Refresh Image</button>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
