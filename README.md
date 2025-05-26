@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="DesginXHub1.png" alt="DesignXHub Banner" width="80%" />
+</p>
 # 🚀 DesignXHub – Unified AI-Powered Creative Platform
 
 [![View on GitHub](https://img.shields.io/badge/View%20on-GitHub-24292e?logo=github&logoColor=white)](https://github.com/DesignXHub/DesignXHub)
